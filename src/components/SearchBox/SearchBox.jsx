@@ -1,6 +1,6 @@
 import { useId } from "react";
 import { useState } from "react";
-import css from "./SearchForm.module.css"
+import css from "./SearchBox.module.css"
 
 export default function SearchForm({ text, onType }) {
     const handleChange = (event) => {
