@@ -21,3 +21,7 @@ width: 100%;
 .submitBtn {
     padding: 7px;
 }
+
+.error {
+    color: rgb(231, 72, 72);
+}

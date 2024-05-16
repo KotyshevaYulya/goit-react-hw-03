@@ -37,12 +37,12 @@ export default function ContactForm({onAdd}) {
             <div className={css.formGroup}>
                     <label>Name</label>
                     <Field type="text" name="name" />
-                    <ErrorMessage name='name'/>
+                    <ErrorMessage className={css.error} name='name' component="span"/>
             </div>
             <div className={css.formGroup}>
                     <label>Number</label>
                     <Field type="tel" name="number" />
-                    <ErrorMessage name="number" />
+                    <ErrorMessage className={css.error} name="number" component="span"/>
             </div>
             <button type="submit" className={css.submitBtn}>Add contact</button>
             </Form>
