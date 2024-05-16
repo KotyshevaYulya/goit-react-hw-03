@@ -1,0 +1,12 @@
+.container {
+    border: 2px solid red;
+    border-radius: 7px;
+    min-width: 320px;
+    max-width: 428px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

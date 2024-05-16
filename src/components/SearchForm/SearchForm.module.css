@@ -1,0 +1,13 @@
+.searchContainer{
+    border: 3px solid pink;
+    max-width: 400px;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.searchForm {
+    display: flex;
+    flex-direction: column;
+
+}
+
